@@ -1,0 +1,22 @@
+.header {
+    padding: 20px 15px;
+    border-bottom: 1px solid var(--cor-primaria);
+    background-color: var(--cor-fundo-preto-escuro);
+}
+
+.header .logo {
+    font-family: var(--fonte-secundaria);
+    color: #fff;
+    line-height: 55px;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.header .logo span{
+    color: var(--cor-primaria);
+}
+
+.header a:hover .logo {
+    color: var(--cor-primaria);
+}
+
